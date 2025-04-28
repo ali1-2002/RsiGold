@@ -3,8 +3,9 @@ import requests
 
 app = Flask(__name__)
 
-TELEGRAM_TOKEN = 'توكن البوت حقك هنا'
-CHAT_ID = 'معرف قناتك هنا'
+TELEGRAM_TOKEN = '7679476656:AAG14OFwY3y1g_1pzJ8_C5BvG0G7kD6pj1k
+'
+CHAT_ID = '-1002195619811'
 
 @app.route('/', methods=['POST'])
 def webhook():
